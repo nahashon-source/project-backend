@@ -187,4 +187,4 @@ def add_inventory(current_user):
     return jsonify({'message': 'Inventory item added successfully'}), 201
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0")
